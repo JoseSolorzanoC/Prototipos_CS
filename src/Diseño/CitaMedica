@@ -1,0 +1,265 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es"><head>
+			
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<meta name="concept" content="Tramites Virtuales - Ministerio de Relaciones Exteriores">
+	<meta name="docType" content="Cancilleria.gov.co tramites Tramites Virtuales">
+	<meta name="language" content="es-CO">
+	<meta name="locale" content="CO">
+	<meta name="keywords" xml:lang="es" content="Cancilleria,Colombia,tramites virtuales, " lang="es">
+	<meta name="author" content="Ministerio de Relaciones Exteriores">
+	<meta name="viewport" content="width=device-width"><link type="text/css" rel="stylesheet" href="/tramites/javax.faces.resource/theme.css.xhtml?ln=primefaces-bootstrap"><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-233719687-1&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/gWN_U6xTIPevg0vuq7g1hct0/recaptcha__es_419.js" crossorigin="anonymous" integrity="sha384-GHSkz5/J3W3qBEkUwKyLWMQrqYcQRF7q6NXPJC9L/KbVyX4ldf3N4WUwwWxQrBS0"></script><script type="text/javascript" src="/tramites/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&amp;v=5.2"></script><script type="text/javascript" src="/tramites/javax.faces.resource/primefaces.js.xhtml?ln=primefaces&amp;v=5.2"></script><link type="text/css" rel="stylesheet" href="/tramites/javax.faces.resource/primefaces.css.xhtml?ln=primefaces&amp;v=5.2"><script type="text/javascript" src="/tramites/javax.faces.resource/jquery/jquery-plugins.js.xhtml?ln=primefaces&amp;v=5.2"></script><link type="text/css" rel="stylesheet" href="/tramites/javax.faces.resource/watermark/watermark.css.xhtml?ln=primefaces&amp;v=5.2"><script type="text/javascript" src="/tramites/javax.faces.resource/watermark/watermark.js.xhtml?ln=primefaces&amp;v=5.2"></script><script type="text/javascript" src="/tramites/javax.faces.resource/idlemonitor/idlemonitor.js.xhtml?ln=primefaces&amp;v=5.2"></script><link type="text/css" rel="stylesheet" href="/tramites/javax.faces.resource/normalize.css.xhtml?ln=css"><link type="text/css" rel="stylesheet" href="/tramites/javax.faces.resource/uikit.min.css.xhtml?ln=css"><link type="text/css" rel="stylesheet" href="/tramites/javax.faces.resource/font_face_Lato.css.xhtml?ln=css"><link type="text/css" rel="stylesheet" href="/tramites/javax.faces.resource/style.css.xhtml?ln=css"><script type="text/javascript">if(window.PrimeFaces){}</script><script type="text/javascript" src="/tramites/javax.faces.resource/utilidades.js.xhtml?ln=javascript"></script><script type="text/javascript" src="/tramites/javax.faces.resource/sticky-header.js.xhtml?ln=javascript"></script>
+<script src="https://www.google.com/recaptcha/api.js?hl=&amp;fallback=false"></script>
+<link rel="shortcut icon" href="/tramites/resources/images/favicon.ico">
+<title></title></head><body style="">
+<header id="sticky-header" class="sticky">
+  <nav class="first-level-nav clearfix">
+	  <div class="content-container">
+		<ul>
+		  <li class="c-logo-nav c-logo-small-nav invisible visible"><a href="http://www.cancilleria.gov.co/" title="Ir a la página web de la Cancillería" class="c-logo-small-nav-bk"><span>Cancillería de la Republica de Colombia</span></a></li>
+		  <li title="Sistema Integral de Trámites al Ciudadano" class="s-logo-nav-desk s-logo-nav-desk-bk invisible"><span>Sistema Integral de Trámites al Ciudadano</span></li>
+		  <li class="s-logo-small-nav visible"><div class="s-logo-small-nav-bk"><span>SITAC: Sistema Integral de Trámites al Ciudadano</span></div></li>
+		  <li class="s-logo-nav s-logo-small-nav-bk"><span>SITAC</span></li> 
+		</ul>
+		<p class="breadcrumb visible"></p>
+	  </div>    
+  </nav>
+</header><div id="j_idt15"></div><div id="modalPanelCargando" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="modalPanelCargando_title" aria-hidden="true" style="width: 250px; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="modalPanelCargando_title" class="ui-dialog-title">Cargando...</span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><img id="j_idt16" src="/tramites/resources/images/ajax_loading.gif?pfdrid_c=true" alt=""></div></div>
+
+
+
+
+<script type="text/javascript">
+// 	Metodo que actualiza captcha (no funciono al incluirla en utilidades.js por eso se dejo aca)
+function reloadCaptcha(idioma) {
+// Get GoogleCaptcha iframe
+var iframeGoogleCaptcha = $('#divRecaptcha').find('iframe');
+
+if(typeof  iframeGoogleCaptcha[0] !== "undefined"){
+	// For setting new language 
+	iframeGoogleCaptcha.attr("src", iframeGoogleCaptcha.attr("src").replace(/hl=(.*?)&/, 'hl='+ idioma +'&'));
+}
+	
+}
+</script><div id="panelIdioma" class="ui-outputpanel ui-widget"></div>
+<div class="content-container"><div id="j_idt33" class="ui-outputpanel ui-widget">
+<div id="after-sticky-message-box" class="clearfix"></div></div><div id="mensajes" class="ui-outputpanel ui-widget">
+
+<div aria-labelledby="mensajesEstandar" tabindex="0"></div><div id="mensajesEstandar" class="ui-messages ui-widget" aria-live="polite"></div></div><span id="j_idt36"></span><script type="text/javascript">$(function(){PrimeFaces.focus();});</script>
+
+
+<header class="clearfix">
+<div aria-labelledby="tittleText" tabindex="0"></div>
+<h1 class="border-bottom-required" style="padding-bottom: 1.8em;"><span id="tittleText"></span>	
+</h1>
+<p class="required-fields"><span id="requiredFields">*Campos Obligatorios</span></p>
+</header>
+<form id="agendamientoFrom" name="agendamientoFrom" method="post" action="/tramites/enlinea/agendamiento.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="agendamientoFrom" value="agendamientoFrom">
+
+
+	<script type="text/javascript">
+function datesDisabled(date) {
+
+var holidays = new Array();
+var fecha_txt = jQuery.datepicker.formatDate('dd/mm/yy', date);
+
+ // day is from [0 - 6] - [Sunday - Monday]
+var day = date.getDay();
+if(day==0 || day==6){
+	return [ false, ''];
+}
+
+if(holidays != null){
+	var resp = holidays.indexOf(fecha_txt);	    	
+	if(resp == -1){
+		 return [ true, ''];
+	}else{
+		 return [ false, ''];
+	}	    	
+}    
+
+};
+
+reloadRecaptcha();
+</script>
+
+<style type="text/css">  
+.calendarioAgendamiento .ui-datepicker  .ui-state-default {
+	   margin: 0px; 
+	color: black;
+	background-color: #d8edf7;
+	background-image: none;
+}	    
+	
+
+.calendarioAgendamiento  .ui-datepicker-calendar .ui-datepicker-current-day .ui-state-active{
+	margin: 0px; 
+	color: white;
+	background-color: green;	        
+	background-image: none;
+}
+
+.calendarioAgendamiento .ui-datepicker-today .ui-state-active{
+	margin: 0px; 
+	color: white;
+	background-color: #0088cc;
+	background-image: none;
+}
+
+.calendarioAgendamiento .ui-datepicker  .ui-datepicker-unselectable .ui-state-default {
+		margin: 0px; 
+	color: black;
+	background-color: #fff2cd;
+	background-image: none;
+}	    
+		
+.ui-messages-info-icon{
+	margin-right: 20px;
+}
+
+.ui-messages-error-icon{
+	margin-right: 20px;
+}	    
+		
+.calendarioAgendamiento .ui-datepicker td{
+	padding: 0px;
+	margin: 0px;
+}
+
+.cuadrado {
+  width:3vh;
+  max-width:100px;
+  height:3vh;
+  max-height:100px;
+  position:relative;
+}
+</style><div id="panelOficinaTramites" class="ui-outputpanel ui-widget">
+
+
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-YZVLJDGLDD"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-YZVLJDGLDD');
+</script><div id="panelDatosTramite" class="ui-panel ui-widget ui-widget-content ui-corner-all" data-widget="widget_panelDatosTramite"><div id="panelDatosTramite_content" class="ui-panel-content ui-widget-content"><table style="width:100%;">
+<tbody>
+<tr>
+<td><div id="panelMensajePais" class="ui-outputpanel ui-widget">
+		<div id="mensajeHeLeidoPais" class="message-box clearfix">
+			<span class="icon-tips"></span>
+			<div aria-labelledby="msjNacEnLinea" tabindex="0"></div><label id="msjcorreo" class="ui-outputlabel ui-widget" style="font-size: 14px; text-align: justify;">Su cita será agendada en la Oficina que seleccione. Si se equivoca de oficina, no será atendido</label>
+			<br>
+		</div></div></td>
+</tr>
+</tbody>
+</table>
+<table style="width:100%;">
+<tbody>
+<tr>
+<td class="col col-one apilable"><div id="j_idt49" class="ui-outputpanel ui-widget">
+<div id="labelPais"><label id="labelPais:labelPais" for="inputPais" tabindex="-1">
+País *</label>
+
+</div>
+<div id="inputPais:select"><select id="inputPais:select:entrada" name="inputPais:select:entrada" class=" ui-state-hover" size="1" onblur="if(document.all) this.style.width='230px';" onkeydown="ajustarTamano(this);" onmousedown="ajustarTamano(this);" style="" title="" onchange="PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;agendamientoFrom&quot;,p:&quot;inputPais:select:entrada&quot;,u:&quot;panelDocRequisito panelDatosTramite&quot;,onst:function(cfg){;},onsu:function(data,status,xhr){;},onco:function(xhr,status,args){;}});">	<option value="" selected="selected">Seleccione...</option>
+<option value="50">COLOMBIA</option>
+</select><div id="inputPais:select:mensaje" aria-live="polite" class="ui-message"></div>
+</div></div></td>
+<td class="col col-two apilable"><div id="j_idt58" class="ui-outputpanel ui-widget">
+<div id="labelOficina"><label id="labelOficina:labelOficina" for="inputOficina" tabindex="-1">
+Oficina *</label>
+
+</div>
+<div id="inputOficina:select"><select id="inputOficina:select:entrada" name="inputOficina:select:entrada" class=" ui-state-hover" size="1" onblur="if(document.all) this.style.width='230px';" onkeydown="ajustarTamano(this);" onmousedown="ajustarTamano(this);" style="" title="" onchange="PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;agendamientoFrom&quot;,p:&quot;inputOficina:select:entrada&quot;,u:&quot;panelDocRequisito panelDatosTramite&quot;,onst:function(cfg){;},onsu:function(data,status,xhr){;},onco:function(xhr,status,args){;}});">	<option value="" selected="selected">Seleccione...</option>
+</select><div id="inputOficina:select:mensaje" aria-live="polite" class="ui-message"></div>
+</div></div></td>
+<td class="col col-three apilable"><div id="j_idt59" class="ui-outputpanel ui-widget"></div></td>
+</tr>
+<tr>
+<td class="col col-one apilable"><div id="j_idt62" class="ui-outputpanel ui-widget"></div></td>
+<td class="col col-two apilable"><div id="j_idt63" class="ui-outputpanel ui-widget"></div></td>
+<td class="col col-three apilable"><div id="j_idt66" class="ui-outputpanel ui-widget"><img id="j_idt67" alt="" src="/tramites/javax.faces.resource/spacer/dot_clear.gif.xhtml?ln=primefaces&amp;v=5.2"></div></td>
+</tr>
+<tr>
+<td class="col col-one apilable"><div id="j_idt68" class="ui-outputpanel ui-widget"><img id="j_idt69" alt="" src="/tramites/javax.faces.resource/spacer/dot_clear.gif.xhtml?ln=primefaces&amp;v=5.2"></div></td>
+</tr>
+</tbody>
+</table>
+</div></div></div><div id="panelDocRequisito" class="ui-outputpanel ui-widget"></div>
+
+<script type="text/javascript">
+reloadRecaptcha();
+</script><div id="panelDatosDocumentoBusqueda" class="ui-outputpanel ui-widget"><div id="panelDatosDocumento" class="ui-panel ui-widget ui-widget-content ui-corner-all" data-widget="widget_panelDatosDocumento"><div id="panelDatosDocumento_content" class="ui-panel-content ui-widget-content">
+	<h2 id="datosDocumentoHeader" tabindex="0">Datos del Documento</h2><table id="panelGridBuscarDocumento" style="width:100%;">
+<tbody>
+<tr>
+<td class="col col-one apilable"><div id="j_idt73" class="ui-outputpanel ui-widget">
+<div id="labelTipoDocumento"><label id="labelTipoDocumento:labelTipoDocumento" for="inputTipoDocumento" tabindex="-1">
+Tipo de Documento *</label>
+
+</div>
+<div id="inputTipoDocumento:select"><select id="inputTipoDocumento:select:entrada" name="inputTipoDocumento:select:entrada" class=" ui-state-hover" size="1" onblur="if(document.all) this.style.width='230px';" onkeydown="ajustarTamano(this);" onmousedown="ajustarTamano(this);" title="" onchange="PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;agendamientoFrom&quot;,p:&quot;inputTipoDocumento:select:entrada&quot;,u:&quot;nacionalidades&quot;,onst:function(cfg){;},onsu:function(data,status,xhr){;},onco:function(xhr,status,args){;}});">	<option value="" selected="selected">Seleccione...</option>
+</select><div id="inputTipoDocumento:select:mensaje" aria-live="polite" class="ui-message"></div>
+</div></div></td>
+<td class="col col-two apilable"><div id="j_idt74" class="ui-outputpanel ui-widget">
+<div id="labelNumeroDocumento"><label id="labelNumeroDocumento:labelNumeroDocumento" for="inputNumeroDocumento" tabindex="-1">
+Número de Documento *</label>
+
+</div>
+<div id="inputNumeroDocumento:text"><input id="inputNumeroDocumento:text:entrada" name="inputNumeroDocumento:text:entrada" type="text" maxlength="35" title="" onkeypress="return alfanumericoSimple(event);" onkeyup="return validacionPaste(event,this,10);" onblur="return validacionPaste(event,this,10);" style="" aria-required="true" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all inputMayusculas" role="textbox" aria-disabled="false" aria-readonly="false" placeholder=""><div id="inputNumeroDocumento:text:mensaje" aria-live="polite" class="ui-message"></div>
+</div></div></td>
+</tr>
+<tr>
+<td class="col col-one apilable"><div id="nacionalidades" class="ui-outputpanel ui-widget">
+<div id="labelNacionalidad"><label id="labelNacionalidad:labelNacionalidad" for="inputNumeroDocumento" tabindex="-1">
+Nacionalidad *</label>
+
+</div>
+<div id="inputNacionalidad:select"><select id="inputNacionalidad:select:entrada" name="inputNacionalidad:select:entrada" class=" ui-state-hover" size="1" onblur="if(document.all) this.style.width='230px';" onkeydown="ajustarTamano(this);" onmousedown="ajustarTamano(this);" style="" title="">	<option value="" selected="selected">Seleccione...</option>
+</select><div id="inputNacionalidad:select:mensaje" aria-live="polite" class="ui-message"></div>
+</div></div></td>
+<td class="col col-two apilable"><div id="j_idt81" class="ui-outputpanel ui-widget">
+<div id="fechaEmisionlabel"><label id="fechaEmisionlabel:fechaEmisionlabel" for="inputNumeroDocumento" tabindex="-1">
+Fecha de Expedición *</label>
+
+</div>
+<div id="fechaEmisionc:calendar"><span id="fechaEmisionc:calendar:entrada" class=" inputMediano"><input id="fechaEmisionc:calendar:entrada_input" name="fechaEmisionc:calendar:entrada_input" type="text" aria-required="true" class="ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker" title="Fecha de registro de la escritura pública" onfocus="prepararCalendario(this);" role="textbox" aria-disabled="false" aria-readonly="false" placeholder="Día Mes Año"></span><div id="fechaEmisionc:calendar:mensaje" aria-live="polite" class="ui-message"></div>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div></div><div id="datosPrivacidad" class="ui-panel ui-widget ui-widget-content ui-corner-all" data-widget="widget_datosPrivacidad"><div id="datosPrivacidad_content" class="ui-panel-content ui-widget-content">
+	<h2 id="datosPrivacidadHeader" tabindex="0">Aviso de Privacidad y autorización para el tratamiento de datos personales trámites en el SITAC del MRE</h2>
+
+	<div aria-labelledby="idMsjAvisoPrivacidad" tabindex="0"></div><span id="idMsjAvisoPrivacidad" class="textBlock">El Ministerio de Relaciones Exteriores y su Fondo Rotatorio, para el cumplimiento de sus obligaciones legales, contractuales y correcta prestación de servicios, requieren obtener entre otros, los siguientes datos personales: identificación, nombres y apellidos, información demográfica, información de nacimiento, información de residencia, datos de contacto y formación académica; datos biométricos (huella, foto, firma) los cuales son capturados virtualmente o de forma presencial en las oficinas del Ministerio de Relaciones Exteriores para la continuación del servicio, trámite o productos que usted requiera, dar respuesta a peticiones, quejas, reclamos, sugerencias, denuncias y felicitaciones; ubicarlo a usted, ubicar a su familia o amigos en caso desastres naturales o emergencias, para promover la participación ciudadana y la rendición de cuentas en el marco de la gestión que adelanta el Ministerio y solicitarle que evalúe la percepción de los trámites y servicios prestados por el Ministerio y su Fondo Rotatorio.<br>Usted autoriza al Ministerio de Relaciones Exteriores y a su Fondo Rotatorio al tratamiento de la información personal que registre aquí, en específico para que sea utilizada en virtud de los fines propios de la misión que cumplen las entidades, y que se materializa en la ejecución de actividades para proveer servicios, trámites o productos que brindan  el Ministerio y su Fondo Rotatorio, tales como registro consular, apostilla y legalización, para la expedición de pasaportes, visas, nacionalidad, cooperación judicial, certificaciones, protocolización de escrituras públicas, actuaciones notariales, Colombia Nos Une trámites no contemplados exclusivos para personal diplomático.<br>Cabe anotar que la supresión de la información y la revocatoria de la misma estarán condicionadas cuando el titular tenga un deber legal o contractual de permanecer en la base de datos.<br>Usted como Titular de los Datos Personales puede ejercer los derechos que le otorga la Ley 1581 de 2012 y sus decretos reglamentarios, dirigiéndose por escrito a la siguiente dirección: Carrera 5 No 9 – 03 Bogotá, Colombia; a nombre de: Protección de Datos Personales, Ministerio de Relaciones Exteriores o al correo electrónico:  <a href="mailto:contactenos@cancilleria.gov.co">contactenos@cancilleria.gov.co</a><br>Sus datos personales pueden ser transmitidos y/o transferidos a nivel nacional y/o internacional. Mayor información para conocer nuestra Política de Tratamiento de Información y los cambios sustanciales que se produzcan en ella en: <a href="https://www.cancilleria.gov.co/politica-tratamiento-informacion" target="_blank">Política de Tratamiento de Datos Personales</a></span>
+	<br><div id="idAutorizaEnvioDatos" class="ui-chkbox ui-widget"><div class="ui-helper-hidden-accessible"><input id="idAutorizaEnvioDatos_input" name="idAutorizaEnvioDatos_input" type="checkbox" aria-checked="false"></div><div class="ui-chkbox-box ui-widget ui-corner-all ui-state-default"><span class="ui-chkbox-icon ui-icon ui-icon-blank ui-c"></span></div><span class="ui-chkbox-label">Consiento que mis datos personales sean transferidos en los términos que señala el presente aviso de privacidad.</span></div></div></div><div id="panelReCaptcha" class="ui-outputpanel ui-widget">
+		<div title="Casilla de verificación para comprobar que usted es una persona" class="g-recaptcha" data-sitekey="6LeT9RYTAAAAAEGdtySB2MwL7j-d35zIDM_cgCN0"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeT9RYTAAAAAEGdtySB2MwL7j-d35zIDM_cgCN0&amp;co=aHR0cHM6Ly90cmFtaXRlc21yZS5jYW5jaWxsZXJpYS5nb3YuY286NDQz&amp;hl=es-419&amp;v=gWN_U6xTIPevg0vuq7g1hct0&amp;size=normal&amp;cb=soqb5ur3e8w2" width="304" height="78" role="presentation" name="a-ch1fn392eieh" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div></div><div id="j_idt86" class="ui-outputpanel ui-widget" style="width: 304px;"><div id="j_idt87" aria-live="polite" class="ui-message"></div></div><div id="accionesSolicitudes" class="ui-panel ui-widget ui-widget-content ui-corner-all accionesFinales" data-widget="widget_accionesSolicitudes"><div id="accionesSolicitudes_content" class="ui-panel-content ui-widget-content"><button id="buttonLimpiar" name="buttonLimpiar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;buttonLimpiar&quot;,p:&quot;buttonLimpiar&quot;,u:&quot;agendamientoFrom&quot;});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-arrowthick-1-w"></span><span class="ui-button-text ui-c">Cancelar</span></button><button id="buttonContinuar" name="buttonContinuar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PF('statusDialog').show();;PrimeFaces.addSubmitParam('agendamientoFrom',{'validarReCaptcha':'true'})" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon ui-icon-arrowthick-1-e"></span><span class="ui-button-text ui-c">Continuar</span></button></div></div></div><input type="hidden" name="javax.faces.ViewState" value="7777277718443443778:1847058969403177139">
+</form>
+</div>
+<footer id="pie"><div id="txtFooter" class="ui-outputpanel ui-widget">Esta aplicación funciona mejor en Internet Explorer 8 (o superior) <img id="j_idt240" src="/tramites/resources/images/internet-explorer-logo.png?pfdrid_c=true" alt="">, Mozilla Firefox <img id="j_idt242" src="/tramites/resources/images/mozilla-logo.png?pfdrid_c=true" alt="">o Google Chrome<img id="j_idt244" src="/tramites/resources/images/chrome-logo.png?pfdrid_c=true" alt=""> <br>@2022 Ministerio de Relaciones Exteriores. <br>@Versión 6.1.1</div>
+</footer>
+<form id="validarTiempoSesion" name="validarTiempoSesion" method="post" action="/tramites/enlinea/agendamiento.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="validarTiempoSesion" value="validarTiempoSesion">
+<div id="confirmDialogValSesion" class="ui-confirm-dialog ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="confirmDialogValSesion_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span class="ui-dialog-title">Estas ahí ?</span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><span class="ui-icon ui-icon-alert ui-confirm-dialog-severity"></span><span class="ui-confirm-dialog-message">Ha estado inactivo durante al menos 8 minutos, Por favor, haga clic en Aceptar para continuar.</span></div><div class="ui-dialog-buttonpane ui-dialog-footer ui-widget-content ui-helper-clearfix"><button id="confirmReanudarSesion" name="confirmReanudarSesion" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PrimeFaces.ab({s:&quot;confirmReanudarSesion&quot;,u:&quot;mensajes&quot;,onco:function(xhr,status,args){PF('idleDialog').hide();;}});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Aceptar</span></button></div></div><input type="hidden" name="javax.faces.ViewState" value="7777277718443443778:1847058969403177139">
+</form>
+<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div><div class="ui-dialog-docking-zone"></div><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="position: absolute; left: 515.328px; top: 585.469px; display: none; z-index: 1001;"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="Anterior"><span class="ui-icon ui-icon-circle-triangle-w">Anterior</span></a><a class="ui-datepicker-next ui-corner-all ui-state-disabled" title="Siguiente"><span class="ui-icon ui-icon-circle-triangle-e">Siguiente</span></a><div class="ui-datepicker-title"><select class="ui-datepicker-month" data-handler="selectMonth" data-event="change"><option value="0">Ene</option><option value="1">Feb</option><option value="2">Mar</option><option value="3">Abr</option><option value="4">May</option><option value="5">Jun</option><option value="6">Jul</option><option value="7" selected="selected">Ago</option></select><select class="ui-datepicker-year" data-handler="selectYear" data-event="change"><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022" selected="selected">2022</option></select></div></div><table class="ui-datepicker-calendar"><thead><tr><th scope="col"><span title="Lunes">L</span></th><th scope="col"><span title="Martes">M</span></th><th scope="col"><span title="Miércoles">M</span></th><th scope="col"><span title="Jueves">J</span></th><th scope="col"><span title="Viernes">V</span></th><th scope="col" class="ui-datepicker-week-end"><span title="Sábado">S</span></th><th scope="col" class="ui-datepicker-week-end"><span title="Domingo">D</span></th></tr></thead><tbody><tr><td class=" " data-handler="selectDay" data-event="click" data-month="7" data-year="2022"><a class="ui-state-default" href="#">1</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="7" data-year="2022"><a class="ui-state-default" href="#">2</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="7" data-year="2022"><a class="ui-state-default" href="#">3</a></td><td class=" ui-datepicker-days-cell-over  ui-datepicker-today" data-handler="selectDay" data-event="click" data-month="7" data-year="2022"><a class="ui-state-default ui-state-highlight" href="#">4</a></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">5</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">6</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">7</span></td></tr><tr><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">8</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">9</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">10</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">11</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">12</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">13</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">14</span></td></tr><tr><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">15</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">16</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">17</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">18</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">19</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">20</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">21</span></td></tr><tr><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">22</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">23</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">24</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">25</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">26</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">27</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">28</span></td></tr><tr><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">29</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">30</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">31</span></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td></tr></tbody></table></div><div id="toolAutorizaEnvioDatos" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Autoriza envío de datos </div><script>mendeleyWebImporter = {
+downloadPdfs(e,t) { return this._call('downloadPdfs', [e,t]); },
+open() { return this._call('open', []); },
+setLoginToken(e) { return this._call('setLoginToken', [e]); },
+_call(methodName, methodArgs) {
+const id = Math.random();
+window.postMessage({ id, token: '0.7854395449829736', methodName, methodArgs }, 'https://tramitesmre.cancilleria.gov.co');
+return new Promise(resolve => {
+const listener = window.addEventListener('message', event => {
+const data = event.data;
+if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+window.removeEventListener('message', listener);
+resolve(data.result);
+});
+});
+}
+};</script><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="el desafío de recaptcha caduca dentro de dos minutos" src="https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;v=gWN_U6xTIPevg0vuq7g1hct0&amp;k=6LeT9RYTAAAAAEGdtySB2MwL7j-d35zIDM_cgCN0" name="c-ch1fn392eieh" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div></div></body></html>
